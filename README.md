@@ -1,7 +1,7 @@
 # 💬 Real-Time Chat Application
 
-A **real-time chat system** built using **Spring Boot (backend)** and **React.js (frontend)**.  
-It provides **instant messaging** via **WebSocket + STOMP protocol**, supports **user authentication**, and offers REST APIs for chat-related operations.
+A **real-time chat application** built as a personal project using **Spring Boot (backend)** and **React.js (frontend)**.  
+It enables **instant messaging** through **WebSocket + STOMP protocol**, integrates **JWT authentication**, and stores chat history in **MongoDB**.
 
 ---
 
@@ -9,9 +9,9 @@ It provides **instant messaging** via **WebSocket + STOMP protocol**, supports *
 
 - 🔐 **User Authentication** (JWT + Spring Security)  
 - 📡 **Real-time Messaging** using WebSocket & STOMP  
-- 💬 **Multiple Chat Rooms** support  
-- 🕒 **Chat History** stored in database (via REST APIs)  
-- 📧 **Broadcast Messaging** – all users in a room get updates instantly  
+- 💬 **Multiple Chat Rooms** with live updates  
+- 🕒 **Chat History** stored in MongoDB  
+- 📧 **Message Broadcasting** to all subscribers in a room  
 - 🎨 **Modern Frontend UI** with React.js  
 - 🔄 **Bi-directional Communication** (client ↔ server)  
 
@@ -20,10 +20,10 @@ It provides **instant messaging** via **WebSocket + STOMP protocol**, supports *
 ## 🏗️ Tech Stack
 
 ### Backend (Spring Boot)
-- Spring Boot (Web, WebSocket, Security, JPA)  
+- Spring Boot (Web, WebSocket, Security, Data MongoDB)  
 - STOMP Protocol over WebSocket  
 - JWT Authentication  
-- MongoDB 
+- MongoDB (NoSQL database)  
 - Maven  
 
 ### Frontend (React.js)
@@ -32,7 +32,6 @@ It provides **instant messaging** via **WebSocket + STOMP protocol**, supports *
 - Axios (for REST API calls)  
 - TailwindCSS / CSS for styling  
 
----
 
 ## ⚙️ Setup Instructions
 
